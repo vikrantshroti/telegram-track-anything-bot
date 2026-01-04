@@ -29,6 +29,7 @@ The bot uses **Telegram polling (no webhook)** and a lightweight file‑based st
 1. **Bot start screen**
 
    * Screenshot of `/start` output
+   ![start](https://github.com/vikrantshroti/telegram-track-anything-bot/blob/master/screenshots/start.png)
 
 2. **Tracking a website**
 
