@@ -34,20 +34,20 @@ The bot uses **Telegram polling (no webhook)** and a lightweight file‑based st
 2. **Tracking a website**
 
    * `/track https://example.com`
+   ![track](https://github.com/vikrantshroti/telegram-track-anything-bot/blob/master/screenshots/track.png)
 
 3. **Listing trackers**
 
    * `/list`
+   ![list](https://github.com/vikrantshroti/telegram-track-anything-bot/blob/master/screenshots/list.png)
 
 4. **Alert notification**
 
    * Message sent when a change is detected
 
-📸 Save screenshots in a `screenshots/` folder and reference them like:
-
-```md
-![Start](screenshots/start.png)
-```
+5. **Remove tracker**
+    * `/remove [id]`
+    ![remove](https://github.com/vikrantshroti/telegram-track-anything-bot/blob/master/screenshots/remove.png)
 
 ---
 
@@ -108,6 +108,7 @@ Create `.env` file:
 
 ```env
 BOT_TOKEN=YOUR_TELEGRAM_BOT_TOKEN
+CHECK_INTERVAL=*/15 * * * *
 ```
 
 ⚠️ No quotes, no spaces
